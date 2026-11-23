@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiliN Gastro Bar — Головна</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">FiliN <span>Gastro Bar</span></a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню та послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 data-i18n="hero_title">FiliN Gastro Bar — затишний гастробар у самому серці Ізмаїла</h1>
+                <p data-i18n="hero_subtitle">Сучасний заклад, де поєднуються найкращі традиції європейської, американської та японської кухні, авторські коктейлі та неперевершена атмосфера.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary" data-i18n="btn_menu">Переглянути меню</a>
+                    <a href="contacts.html" class="btn btn-outline" data-i18n="btn_reserve">Забронювати столик</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 data-i18n="features_heading">Чому обирають нас</h2>
+                    <div class="gold-line"></div>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🍸</div>
+                        <h3 data-i18n="feat_1_title">Авторські коктейлі</h3>
+                        <p data-i18n="feat_1_desc">Широкий асортимент напоїв, унікальні поєднання та висока культура барного мистецтва.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍣</div>
+                        <h3 data-i18n="feat_2_title">Різноманітна кухня</h3>
+                        <p data-i18n="feat_2_desc">Страви європейської, американської та японської кухні, а також апетитні роли й мангал.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3 data-i18n="feat_3_title">Затишна атмосфера</h3>
+                        <p data-i18n="feat_3_desc">Ідеальне місце для вечірнього відпочинку з друзями, романтичної зустрічі чи свята.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-preview section-padding bg-dark">
+            <div class="container about-preview-grid">
+                <div class="about-text-content">
+                    <h2 data-i18n="about_prev_title">Простір смаку та відпочинку</h2>
+                    <div class="gold-line-left"></div>
+                    <p data-i18n="about_prev_p1">FiliN Gastro Bar — це сучасний заклад у місті Ізмаїл, де поєднуються найкращі традиції європейської, американської та японської кухні. Це ідеальне місце для приємного вечора в компанії друзів або романтичної зустрічі.</p>
+                    <p data-i18n="about_prev_p2">Графік роботи до пізньої ночі робить нас улюбленою локацією для вечірнього відпочинку. Завітайте за яскравими емоціями та вишуканими смаками.</p>
+                    <a href="about.html" class="btn btn-primary" data-i18n="btn_read_more">Дізнатися більше</a>
+                </div>
+                <div class="about-image-wrapper">
+                    <div class="badge-box">
+                        <span class="badge-title" data-i18n="badge_hours">Графік роботи</span>
+                        <span class="badge-value">Пн-Нд: 10:00 - 03:00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section section-padding text-center">
+            <div class="container">
+                <h2 data-i18n="cta_title">Чекаємо на вас у FiliN Gastro Bar</h2>
+                <p data-i18n="cta_desc">вул. Осипенка, 63, Ізмаїл, Одеська область | Телефон: +380 68 129 7975</p>
+                <a href="contacts.html" class="btn btn-primary" data-i18n="btn_contacts">Контакти та мапа</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo">FiliN <span>Gastro Bar</span></a>
+                <p data-i18n="footer_desc">Затишний гастробар у самому серці Ізмаїла з широким вибором страв та напоїв.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav">Навігація</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню та послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts">Контакти</h4>
+                <p><strong>Адреса:</strong> вул. Осипенка, 63, Ізмаїл, Одеська область, 68600</p>
+                <p><strong>Телефон:</strong> <a href="tel:+380681297975">+380 68 129 7975</a></p>
+                <p><strong>Графік:</strong> Пн-Нд: 10:00 - 03:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 FiliN Gastro Bar. <span data-i18n="rights">Усі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
