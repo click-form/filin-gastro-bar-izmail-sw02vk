@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiliN Gastro Bar — Меню та послуги</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">FiliN <span>Gastro Bar</span></a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="active" data-i18n="nav_services">Меню та послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container text-center">
+                <h1 data-i18n="services_page_title">Меню та послуги</h1>
+                <div class="gold-line"></div>
+                <p data-i18n="services_page_subtitle">Насолоджуйтесь вишуканими стравами та авторськими напоями</p>
+            </div>
+        </section>
+
+        <section class="services-section section-padding">
+            <div class="container">
+                <div class="menu-categories-grid">
+                    <div class="menu-card">
+                        <div class="menu-card-header">
+                            <span class="menu-icon">🇪🇺</span>
+                            <h3 data-i18n="cat_european">Європейська кухня</h3>
+                        </div>
+                        <p data-i18n="cat_european_desc">Класичні та сучасні європейські страви, приготовані за найкращими рецептами для справжніх гурманів.</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-header">
+                            <span class="menu-icon">🇺🇸</span>
+                            <h3 data-i18n="cat_american">Американська кухня</h3>
+                        </div>
+                        <p data-i18n="cat_american_desc">Популярні американські закуски та страви з насиченим смаком у найкращих традиціях.</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-header">
+                            <span class="menu-icon">🇯🇵</span>
+                            <h3 data-i18n="cat_japanese">Японська кухня та роли</h3>
+                        </div>
+                        <p data-i18n="cat_japanese_desc">Свіжі та смачні роли, приготовані з якісних інгредієнтів за традиційними та авторськими рецептами.</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-header">
+                            <span class="menu-icon">🔥</span>
+                            <h3 data-i18n="cat_grill">Страви на мангалі</h3>
+                        </div>
+                        <p data-i18n="cat_grill_desc">Ароматні м'ясні та овочеві страви з димком, приготовані на відкритому вогні.</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-header">
+                            <span class="menu-icon">🍸</span>
+                            <h3 data-i18n="cat_bar">Авторські коктейлі та бари</h3>
+                        </div>
+                        <p data-i18n="cat_bar_desc">Широкий асортимент напоїв, міцного алкоголю та унікальних коктейлів від нашої команди барменів.</p>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-header">
+                            <span class="menu-icon">🎉</span>
+                            <h3 data-i18n="cat_events">Святкування та вечори</h3>
+                        </div>
+                        <p data-i18n="cat_events_desc">Ідеальна атмосфера для романтичних зустрічей, вечірок з друзями та святкування особливих подій.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo">FiliN <span>Gastro Bar</span></a>
+                <p data-i18n="footer_desc">Затишний гастробар у самому серці Ізмаїла з широким вибором страв та напоїв.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav">Навігація</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню та послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts">Контакти</h4>
+                <p><strong>Адреса:</strong> вул. Осипенка, 63, Ізмаїл, Одеська область, 68600</p>
+                <p><strong>Телефон:</strong> <a href="tel:+380681297975">+380 68 129 7975</a></p>
+                <p><strong>Графік:</strong> Пн-Нд: 10:00 - 03:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 FiliN Gastro Bar. <span data-i18n="rights">Усі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
